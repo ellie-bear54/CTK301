@@ -1,0 +1,76 @@
+#float-right-text {
+  font-size: 24px;
+  width: 300px;
+  height: 200px;
+  float: right;
+  position: relative;
+  background-color: #0000ff;
+  animation: pulse 0.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.5);
+    top: 100px;
+    right: 100px;
+  }
+   50% {
+     transform: scale(1);
+
+   }
+   100% {
+     transform: scale(1.5);
+     top: 100px;
+     right: 100px;
+   }
+}
+
+
+#animated-text {
+  color: #2691d4;
+  font-size: 48px;
+  width: 500px;
+  height: 200px;
+  position: relative;
+  background-color: #e8a62c;
+  animation: theme 4s infinite;
+}
+
+@keyframes theme {
+  0%   {left:0px; top:0px;}
+  25%  {left:150px; top:0px;}
+  50%  {left:150px; top:150px;}
+  75%  {left:0px; top:150px;}
+  100% {left:0px; top:0px;}
+}
+
+#animaniac-1 {
+  float: right;
+  width: 750px;
+}
+
+#animaniac-1 img {
+  float: right;
+  width: 750px;
+  position: absolute;
+  transition: all 1s;
+}
+
+#animaniac-1:hover img {
+  transform: rotate(0.5turn);
+}
+
+#title {
+  width: 1000px;
+  overflow: hidden;
+  position: absolute;
+}
+
+#title img {
+  width: 1000px;
+  transition: all .33s;
+}
+
+#title:hover img {
+  transform: translate(150px, 25%);
+}
