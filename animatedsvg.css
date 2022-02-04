@@ -1,0 +1,66 @@
+body {
+    background-color: #191f5c;
+}
+
+#wrapper {
+  width: 1200px;
+  display: grid;
+  margin: auto;
+}
+
+#ellie {
+  position: relative;
+  overflow: hidden;
+  transition: transform 3s;
+}
+
+#e {
+  animation: e1bounce 1s; transform-origin: center;
+}
+
+    @keyframes e1bounce {
+      0%   { transform: rotate(360deg);}
+    }
+
+#l {
+  animation: l1bounce 1s; transform-origin: center;
+}
+
+    @keyframes l1bounce {
+      0%   { transform: rotate(360deg);}
+    }
+
+#l_00000093876147906388422730000004776620075193757874_ {
+  animation: l2bounce 1s; transform-origin: center;
+}
+
+    @keyframes l2bounce {
+      0%   { transform: rotate(360deg);}
+    }
+
+#i {
+  animation: ibounce 1s; transform-origin: center;
+}
+
+    @keyframes ibounce {
+      0%   { transform: rotate(360deg);}
+    }
+
+#e_00000087412032400695136810000009215712727743077560_ {
+  animation: e2bounce 1s; transform-origin: center;
+}
+
+    @keyframes e2bounce {
+      0%   { transform: rotate(360deg);}
+    }
+
+#ellie:hover {
+  transform: scale(1.3);
+  overflow:hidden;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
