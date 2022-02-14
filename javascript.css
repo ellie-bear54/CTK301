@@ -1,0 +1,51 @@
+
+#wrapper {
+  background-color: rgb(254, 255, 183);
+  width: 1300px;
+  display: grid;
+  margin: auto;
+}
+
+#header-title {
+  text-align: center;
+}
+
+#line-1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+#quidditch-photos {
+  align-items: center;
+}
+
+.quidditch-photo-1 {
+transition: all .5s;
+position: absolute;
+overflow: hidden;
+}
+
+.quidditch-photo-1:hover {
+  transform: scale(1.1);
+}
+.quidditch-photo-2 {
+  transition: all .5s;
+  float: right;
+  overflow: hidden;
+}
+
+.quidditch-photo-2:hover {
+  transform: scale(1.1);
+}
+
+#container {
+  text-align: center;
+}
+
+#right-caption {
+  width: 50%;
+}
+
+#left-caption {
+  width: 50%;
+}
